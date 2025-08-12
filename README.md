@@ -24,7 +24,7 @@ section.html
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/services-section.git
+   git clone https://github.com/iampayal/services-section.git
    ```
 2. **Open the File**
 
@@ -46,6 +46,10 @@ section.html
 * **Tablet** (≤900px): 2 columns
 * **Mobile** (≤600px): 1 column
 
+## 📷 Preview
+
+<img width="1917" height="980" alt="Screenshot 2025-08-12 110637" src="https://github.com/user-attachments/assets/c590708e-0dfe-4b74-a01d-12b09edd301a" />
+
 
 ## 📝 Customization
 
@@ -53,5 +57,12 @@ section.html
 * Adjust **colors**, **font sizes**, or **grid layout** in the CSS section.
 * Modify **text content** to match your services.
 
+## 👥 Contributors
+
+* **[@theIamDev](https://github.com/theIamDev)** – Contributor
+
 ## 📄 License
+
+This project is licensed under the MIT License – feel free to use and modify it.
+
 
