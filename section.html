@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .services {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+      align-items: stretch; /* Equal height for each row */
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon-wrapper {
+      height: 60px; /* Fixed height for icon area */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .icon {
+      color: #007bff;
+    }
+
+    .service-card h3 {
+      margin: 0.5rem 0;
+      font-size: 1.25rem;
+      min-height: 2.5rem; /* Reserve space for equal title height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .service-card p {
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+      flex-grow: 1; /* Pushes bottom content down */
+    }
+
+    @media (max-width: 900px) {
+      .services {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .services {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class="services">
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2L2 7v6c0 5.25 3.75 10 10 10s10-4.75 10-10V7l-10-5z"/>
+      </svg>
+    </div>
+    <h3>Web Development</h3>
+    <p>We build modern, responsive websites tailored to your business needs.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2a10 10 0 0 0 0 20 10 10 0 0 0 0-20zM11 6h2v6h-2V6zm0 8h2v2h-2v-2z"/>
+      </svg>
+    </div>
+    <h3>Consulting</h3>
+    <p>Expert advice to help you make informed technology decisions for sustainable growth and long-term success.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="icon-wrapper">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M3 13h2v-2H3v2zm4 0h14v-2H7v2z"/>
+      </svg>
+    </div>
+    <h3>SEO Optimization</h3>
+    <p>Improve your website's ranking and visibility in search engines. Our strategies ensure your business reaches its target audience effectively and sustains long-term growth.</p>
+  </div>
+</section>
+
+</body>
+</html>
